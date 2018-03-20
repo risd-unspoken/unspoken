@@ -1,13 +1,15 @@
 body{
 	width:100vw;
 	height:100vh;
-	margin:0 auto;
+	left:-15px;
 	font-family: 'Lora', serif;
 	text-align: center;
 	background:black;
 	color:white;
 	letter-spacing: .1px;
 	font-size:20px;
+	position:absolute;
+	overflow-x: hidden;
 }
 
 .center{
@@ -300,12 +302,12 @@ button{
 	}
 	.intro{
 		width:70%;
-		font-size:15px;
+		font-size:18px;
 	}
 	div.bubble{
-		width:380px;
-		height:380px;
-		border-radius:190px;
+		width:360px;
+		height:360px;
+		border-radius:180px;
 		animation-play-state: paused;
 		animation: Gradient 15s ease infinite;
 	}
