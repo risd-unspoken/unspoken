@@ -43,10 +43,11 @@
   <div class="form-container">
   <form name="submit-to-google-sheet"> 
   
-  <p >Tell me your story</p>
-  <textarea name="story" type="text"></textarea>
+  <p >Tell me your story<br>
+  <span class="ex">(Max 100 characters)</span> </p>
+  <textarea maxlength="100" name="story" type="text"></textarea>
 
-  <p>Where do you want your message to be seen? <br>(Must be a public space)</p>
+  <p>Where did it happen? <br> <span class="ex">(Must be a public space ex.market square)</span></p>
   <textarea name="place" type="text"> </textarea>
     
   <button type="submit" id="submit">submit</button> 
@@ -59,7 +60,7 @@
       </div>
     </div>
     
-    <p class="js-success-message is-hidden">Thank you for your submission.</p>
+    <p class="js-success-message is-hidden">Thank you for your submission. <br> <a href="https://docs.google.com/spreadsheets/d/1-KzY1rljP95rcLSbzm4uoxU43ZH2i1aLaRg_nVxT_sE/edit#gid=0">Check out</a></p>
     <p class="js-error-message is-hidden">Error, Please try again</p>
 </div>
   </div>
