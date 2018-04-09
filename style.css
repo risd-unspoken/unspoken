@@ -315,6 +315,9 @@ button{
 	.title{
 		font-size:120px;
 	}
+	.intro{
+		width:75%;
+	}
 	div.bubble{
 		width:500px;
 		height:500px;
