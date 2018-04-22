@@ -37,16 +37,17 @@ div{
 	 -webkit-background-clip: text;
 	 -webkit-text-fill-color: transparent;
 }
-.logo{
+.logo-box{
 	margin-top:10vh;
+	height:30px;
 }
 
 .body{
 	margin-top:20vh;
 	position:absolute;
-	height;auto;
 }
 .messages{
+	margin-top:20vh
 	letter-spacing: .5px;
 	font-size:40px;
 	height:50vh;
