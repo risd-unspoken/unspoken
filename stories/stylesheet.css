@@ -16,7 +16,7 @@ body{
 	margin: 0 auto;
 	text-align:center;
 }
-.gradient-box{
+.gradientbox{
 	margin:0 auto;
 	background: -webkit-linear-gradient(-45deg, rgb(248,187,214),rgb(248,187,214),rgb(120, 192, 235),rgb(120, 192, 235));
 	background-size:300% 300%;
