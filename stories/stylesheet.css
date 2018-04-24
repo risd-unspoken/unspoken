@@ -51,7 +51,6 @@ body{
 }
 .scroll{
 	font-size:15px;
-	display:block;
 	margin-top:30vh;
 }
 .messages{
@@ -66,7 +65,7 @@ body{
 	width:40vw;
 	margin-left:30vw;
 	border: 1px solid white;
-	margin-bottom:50px;
+	margin-bottom:20vh;
 }
 
 
