@@ -39,25 +39,25 @@ body{
 	 -webkit-text-fill-color: transparent;
 }
 .logo, .messages{
-	margin-left:20vw;
+	margin-left:18vw;
 	width:60vw;
 }
 .logo{
-	padding-top:50px;
+	padding-top:30px;
 	font-size:20px;
 }
 .messages{
-	margin-top:19vh;
+	margin-top:15vh;
 	letter-spacing: .5px;
-	font-size:50px;
+	font-size:40px;
 }
 .form {
 	font-size:15px;
 	margin-top:100px;
 	padding-top:5px;
 	padding-bottom:5px;
-	width:30vw;
-	margin-left:35vw;
+	width:40vw;
+	margin-left:30vw;
 	border: 1px solid white;
 }
 
