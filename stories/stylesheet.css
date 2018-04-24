@@ -1,5 +1,5 @@
 body{
-	width:100vw;
+	width:98vw;
 	height:100vh;
 	left:-8px;
 	font-family: 'Lora', serif;
@@ -9,7 +9,7 @@ body{
 	letter-spacing: .1px;
 	font-size:20px;
 	position:absolute;
-	overflow: hidden;
+	overflow-x:hidden;
 }
 
 .center{
@@ -17,12 +17,13 @@ body{
 	text-align:center;
 }
 
-div{
-	background: -webkit-linear-gradient(-45deg, rgb(248,187,214),rgb(248,187,214),rgb(120, 192, 235),rgb(120, 192, 235));
-	background-size:200% 200%;
-	height:98vh;
+.body{
 	margin:0 auto;
-	width:60vw;
+	margin-top:20vh;
+	position:absolute;
+	background: -webkit-linear-gradient(-45deg, rgb(248,187,214),rgb(248,187,214),rgb(120, 192, 235),rgb(120, 192, 235));
+	background-size:300% 300%;
+	margin:0 auto;
 	display:block;
 /*
 	flex-direction: column;
@@ -37,21 +38,29 @@ div{
 	 -webkit-background-clip: text;
 	 -webkit-text-fill-color: transparent;
 }
-.logo-box{
-	margin-top:10vh;
-	height:30px;
+.logo, .messages{
+	margin-left:20vw;
+	width:60vw;
 }
-
-.body{
-	margin-top:20vh;
-	position:absolute;
+.logo{
+	padding-top:50px;
+	font-size:20px;
 }
 .messages{
-	margin-top:20vh
+	margin-top:19vh;
 	letter-spacing: .5px;
-	font-size:40px;
-	height:50vh;
+	font-size:50px;
 }
+.form {
+	font-size:15px;
+	margin-top:100px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:30vw;
+	margin-left:35vw;
+	border: 1px solid white;
+}
+
 
 
 __gradient--
