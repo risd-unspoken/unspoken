@@ -189,7 +189,10 @@ button{
 	font-family: 'Lora', serif;
 }
 
-
+a{
+	text-decoration: underline;
+	color:white;
+}
 .confirmation{
 	margin-top:50px;
 	font-size:10px;
@@ -199,6 +202,9 @@ button{
 .is-hidden {
       display: none !important;
  }
+
+
+
 
 /*gradient*/
 @-webkit-keyframes Gradient {
