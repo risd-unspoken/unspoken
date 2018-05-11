@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>RISD Unspoken</title>
+  <meta name="description" content="RISD Unspoken messages">
+  <link href="./favicon.png" rel="shortcut icon">
+
+  <link rel="stylesheet" href="printcss.css">
+  <script src="https://unpkg.com/prefixfree@1.0.0/prefixfree.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+	function printDiv(divName) {
+     var printContents = document.getElementById(divName).innerHTML;
+     var originalContents = document.body.innerHTML;
+
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
+	</script>
+<div class="title-page">
+  <h1 class="title">Unspoken</h1>
+</div>
+<div class="intro-page">
+
+
+  <div class="intro">
+	 <p>People will probably have at least one place that they enjoyed during college years or going miss when they leave college. For example, your freshmen dorm, when you first arrived here or studio, where you had to suffer because of projects.</p>
+   
+    <p> Unspoken is for graduating seniors  to leave a message that they experienced within the four years. This project is intended to share memories and experiences within the RISD community before the graduation. Join the RISD Unspoken community and find out what others have shared.</p> 
+
+    <p>If you want to leave any message behind, please scroll below. 
+    </p>
+
+</div>
+</div>
+  
+  
+<!--form-->
+  <div id="window">
+   <div>
+  <div class="bubble">
+
+    
+  <div class="form-container">
+  
+  <textarea name="place" type="text" placeholder="Where is your memorable place?"></textarea>
+
+  <p>Why?</p>
+  <textarea name="story" type="text"> </textarea>
+    
+  <button type="button" value="print" onclick ="window.print()">print</button> 
+  
+</div>
+  </div>
+  </div>
+</div>
+
+
+
+
+<!--  <a href="https://docs.google.com/spreadsheets/d/1-KzY1rljP95rcLSbzm4uoxU43ZH2i1aLaRg_nVxT_sE/edit#gid=0" target="_blank">View the Google Sheet</a>-->
+
+
+</body>
+</html>
